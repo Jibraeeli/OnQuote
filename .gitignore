@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# Expo / build output
+.expo/
+dist/
+web-build/
+build/
+expo-env.d.ts
+/ios
+/android
+.metro-health-check*
+*.tsbuildinfo
+
+# env files and secrets (keep the example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.keystore
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+credentials.json
+
+# local databases
+*.db
+*.sqlite
+*.sqlite3
+supabase/.temp/
+supabase/.branches/
+
+# editor
+.vscode/
+.idea/
+
+# logs and OS junk
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+.DS_Store
+Thumbs.db

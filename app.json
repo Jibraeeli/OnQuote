@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "OnQuote",
+    "slug": "onquote",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.onquote.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "OnQuote uses the camera so you can snap job-site photos for your quote.",
+        "NSMicrophoneUsageDescription": "OnQuote uses the mic so you can record a quick voice note instead of typing.",
+        "NSCalendarsUsageDescription": "OnQuote can add a job to your calendar after sending a quote.",
+        "NSPhotoLibraryUsageDescription": "OnQuote saves quote photos to process your quote."
+      }
+    },
+    "android": {
+      "package": "com.onquote.app",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        { "cameraPermission": "OnQuote needs the camera to snap job-site photos." }
+      ],
+      [
+        "expo-av",
+        { "microphonePermission": "OnQuote needs the mic for voice notes." }
+      ]
+    ]
+  }
+}

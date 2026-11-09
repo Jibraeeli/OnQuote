@@ -1,0 +1,64 @@
+{
+  "plumber": {
+    "labour_hourly": 65,
+    "callout_fee": 45,
+    "parts": [
+      { "name": "15mm copper pipe", "unit": "m", "price": 8 },
+      { "name": "22mm copper pipe", "unit": "m", "price": 12 },
+      { "name": "Compression fitting", "unit": "each", "price": 4 },
+      { "name": "Push-fit elbow", "unit": "each", "price": 3 },
+      { "name": "PTFE tape", "unit": "roll", "price": 2 },
+      { "name": "Isolation valve", "unit": "each", "price": 8 },
+      { "name": "Flexible tap connector", "unit": "each", "price": 9 },
+      { "name": "Silicone sealant", "unit": "tube", "price": 6 }
+    ]
+  },
+  "electrician": {
+    "labour_hourly": 70,
+    "callout_fee": 55,
+    "parts": [
+      { "name": "2.5mm T&E cable", "unit": "m", "price": 3 },
+      { "name": "1.5mm T&E cable", "unit": "m", "price": 2 },
+      { "name": "Single socket", "unit": "each", "price": 8 },
+      { "name": "Double socket", "unit": "each", "price": 12 },
+      { "name": "Light switch", "unit": "each", "price": 6 },
+      { "name": "Junction box", "unit": "each", "price": 5 },
+      { "name": "MCB 6A/16A/32A", "unit": "each", "price": 9 },
+      { "name": "Cable clips (pack)", "unit": "pack", "price": 3 }
+    ]
+  },
+  "hvac": {
+    "labour_hourly": 75,
+    "callout_fee": 60,
+    "parts": [
+      { "name": "Thermostat (basic)", "unit": "each", "price": 45 },
+      { "name": "Smart thermostat", "unit": "each", "price": 180 },
+      { "name": "Radiator valve (TRV)", "unit": "each", "price": 22 },
+      { "name": "Boiler pressure gauge", "unit": "each", "price": 18 },
+      { "name": "Condensate pump", "unit": "each", "price": 85 },
+      { "name": "Inhibitor fluid", "unit": "bottle", "price": 15 }
+    ]
+  },
+  "roofer": {
+    "labour_hourly": 60,
+    "callout_fee": 50,
+    "parts": [
+      { "name": "Concrete roof tile", "unit": "each", "price": 3 },
+      { "name": "Ridge tile", "unit": "each", "price": 8 },
+      { "name": "Lead flashing (per m)", "unit": "m", "price": 25 },
+      { "name": "Roof sealant", "unit": "tube", "price": 9 },
+      { "name": "Felt (roll 8m)", "unit": "roll", "price": 45 }
+    ]
+  },
+  "handyman": {
+    "labour_hourly": 45,
+    "callout_fee": 35,
+    "parts": [
+      { "name": "Filler / putty", "unit": "tub", "price": 6 },
+      { "name": "Silicone sealant", "unit": "tube", "price": 6 },
+      { "name": "Screws (pack)", "unit": "pack", "price": 4 },
+      { "name": "Wall plugs (pack)", "unit": "pack", "price": 3 },
+      { "name": "Sandpaper set", "unit": "pack", "price": 5 }
+    ]
+  }
+}
